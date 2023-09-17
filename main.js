@@ -9,6 +9,7 @@ const doFib = (iterations) =>
     const start = Date.now();
     const result = fibonacci(iterations);
     console.log(`doFib done in ${Date.now() - start}ms`);
+    resolve(result);
   });
 
 const main = async () => {
