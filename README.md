@@ -33,7 +33,7 @@ worker 5 done in 1773ms
 worker 4 done in 1782ms
 worker 3 done in 1801ms
 Final result is 102334155,102334155,102334155,102334155,102334155
-Total execution time is 1828ms
+Total execution time is 1827ms
 ```
 
 #### As it can be clearly inferred from the results that, nodeJs now supports multithreading.
